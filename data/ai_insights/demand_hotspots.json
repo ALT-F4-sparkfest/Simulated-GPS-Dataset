@@ -1,0 +1,112 @@
+[
+  {
+    "stop_name": "Makati CBD",
+    "latitude": 14.51,
+    "longitude": 121.135,
+    "route_id": "CUBAO-MAKATI",
+    "vehicle_count": 2,
+    "avg_wait_minutes": 70.0,
+    "demand_score": 28.0,
+    "avg_daily_waiting": 70
+  },
+  {
+    "stop_name": "Aurora Boulevard",
+    "latitude": 14.576,
+    "longitude": 121.075,
+    "route_id": "CUBAO-MARIKINA",
+    "vehicle_count": 2,
+    "avg_wait_minutes": 31.1,
+    "demand_score": 12.44,
+    "avg_daily_waiting": 31
+  },
+  {
+    "stop_name": "Ayala Avenue",
+    "latitude": 14.52,
+    "longitude": 121.135,
+    "route_id": "CUBAO-MAKATI",
+    "vehicle_count": 2,
+    "avg_wait_minutes": 30.4,
+    "demand_score": 12.16,
+    "avg_daily_waiting": 30
+  },
+  {
+    "stop_name": "Araneta Center, Cubao",
+    "latitude": 14.5808,
+    "longitude": 121.0885,
+    "route_id": "CUBAO-DIVISORIA",
+    "vehicle_count": 8,
+    "avg_wait_minutes": 6.0,
+    "demand_score": 9.59,
+    "avg_daily_waiting": 23
+  },
+  {
+    "stop_name": "Ortigas Center",
+    "latitude": 14.57,
+    "longitude": 121.105,
+    "route_id": "CUBAO-MAKATI",
+    "vehicle_count": 2,
+    "avg_wait_minutes": 13.0,
+    "demand_score": 5.19,
+    "avg_daily_waiting": 12
+  },
+  {
+    "stop_name": "Pasig CBD",
+    "latitude": 14.6,
+    "longitude": 121.098,
+    "route_id": "CUBAO-PASIG",
+    "vehicle_count": 2,
+    "avg_wait_minutes": 11.6,
+    "demand_score": 4.65,
+    "avg_daily_waiting": 11
+  },
+  {
+    "stop_name": "San Juan Main St",
+    "latitude": 14.585,
+    "longitude": 121.07,
+    "route_id": "CUBAO-SANJUAN",
+    "vehicle_count": 2,
+    "avg_wait_minutes": 7.9,
+    "demand_score": 3.18,
+    "avg_daily_waiting": 7
+  },
+  {
+    "stop_name": "Pasig City Hall",
+    "latitude": 14.595,
+    "longitude": 121.095,
+    "route_id": "CUBAO-PASIG",
+    "vehicle_count": 2,
+    "avg_wait_minutes": 7.5,
+    "demand_score": 3.01,
+    "avg_daily_waiting": 7
+  },
+  {
+    "stop_name": "Marikina City Hall",
+    "latitude": 14.555,
+    "longitude": 121.03,
+    "route_id": "CUBAO-MARIKINA",
+    "vehicle_count": 2,
+    "avg_wait_minutes": 5.0,
+    "demand_score": 1.99,
+    "avg_daily_waiting": 4
+  },
+  {
+    "stop_name": "Marikina CBD",
+    "latitude": 14.545,
+    "longitude": 121.02,
+    "route_id": "CUBAO-MARIKINA",
+    "vehicle_count": 2,
+    "avg_wait_minutes": 1.7,
+    "demand_score": 0.68,
+    "avg_daily_waiting": 1
+  },
+  {
+    "stop_name": "San Juan CBD",
+    "latitude": 14.59,
+    "longitude": 121.06,
+    "route_id": "CUBAO-SANJUAN",
+    "vehicle_count": 2,
+    "avg_wait_minutes": 1.4,
+    "demand_score": 0.56,
+    "avg_daily_waiting": 1
+  }
+]
