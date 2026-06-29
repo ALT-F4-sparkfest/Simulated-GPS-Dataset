@@ -440,7 +440,7 @@ def compute_fleet_stats(df: pd.DataFrame) -> Dict:
     print(f"    - Peak usage at {result['peak_hour']}:00")
     
     return result
-
+    
 
 # ==============================================================================
 # PART 5: Main Function
@@ -451,7 +451,7 @@ def generate_ai_insights(csv_path: str = None) -> None:
     Main function: load CSV, compute insights, save JSON files.
     """
     print("=" * 80)
-    print("SmartRoute: AI Insights Dashboard Data Aggregator")
+    print("AI Insights Dashboard Data Aggregator")
     print("=" * 80)
     
     print("\nLoading and combining CSV datasets...")
