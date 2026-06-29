@@ -449,34 +449,25 @@ def compute_fleet_stats(df: pd.DataFrame) -> Dict:
 def generate_ai_insights(csv_path: str = None) -> None:
     """
     Main function: load CSV, compute insights, save JSON files.
-    
-    Args:
-        csv_path: Path to simulated GPS CSV. If None, auto-detect.
     """
     print("=" * 80)
     print("SmartRoute: AI Insights Dashboard Data Aggregator")
     print("=" * 80)
     
-    # Auto-detect CSV if not provided
-    if csv_path is None:
-        candidates = [
-            Path('data/simulated_trips_multiroute.csv'),
-            Path('data/simulated_trips.csv'),
-        ]
-        for candidate in candidates:
-            if candidate.exists():
-                csv_path = str(candidate)
-                break
-        
-        if csv_path is None:
-            print("\n❌ Error: No CSV file found in data/")
-            print("   Expected: data/simulated_trips.csv or data/simulated_trips_multiroute.csv")
-            print("   Run: python scripts/generate_simulated_gps.py")
-            return
+    print("\nLoading and combining CSV datasets...")
     
-    print(f"\nLoading CSV: {csv_path}")
-    df = pd.read_csv(csv_path)
-    print(f"  ✓ Loaded {len(df):,} GPS readings")
+    try:
+        # Load both CSV files and combine them
+        df_single = pd.read_csv("data/simulated_trips.csv")
+        df_multi = pd.read_csv("data/simulated_trips_multiroute.csv")
+        df = pd.concat([df_single, df_multi], ignore_index=True)
+        print(f"  ✓ Loaded combined dataset: {len(df):,} GPS readings")
+    except FileNotFoundError as e:
+        print(f"\n❌ Error: Missing a required CSV file - {e.filename}")
+        print("   Expected both: data/simulated_trips.csv AND data/simulated_trips_multiroute.csv")
+        print("   Run: python scripts/generate_simulated_gps.py")
+        return
+
     print(f"  - Vehicles: {df['vehicle_id'].nunique()}")
     print(f"  - Date range: {df['timestamp'].min()} to {df['timestamp'].max()}")
     

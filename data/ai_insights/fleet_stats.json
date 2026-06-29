@@ -1,11 +1,11 @@
 {
-  "total_trips": 7250,
-  "total_km": 90957.2,
-  "avg_speed_kmh": 7.3,
+  "total_trips": 7390,
+  "total_km": 106430.5,
+  "avg_speed_kmh": 9.4,
   "on_time_percentage": 99,
-  "avg_utilization_percent": 32.7,
+  "avg_utilization_percent": 35.3,
   "peak_hour": 11,
-  "avg_daily_revenue_php": 233035.71,
-  "vehicles_active": 8,
+  "avg_daily_revenue_php": 237535.71,
+  "vehicles_active": 10,
   "days_simulated": 7
 }
