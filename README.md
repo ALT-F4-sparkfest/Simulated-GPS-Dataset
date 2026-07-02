@@ -1,1 +1,2 @@
 # Simulated GPS Dataset
+Simulated GPS traces for Busina—a fleet intelligence system for Philippine jeepneys. This repo contains 68,880 simulated GPS readings across 5 Metro Manila routes and 10 vehicles, generated over 7 days of simulated operation. It includes data generators, ETA heuristic reference, bunching detection logic, and AI Insights JSON aggregator—all serving as placeholder data for testing and validation until real hardware is deployed.
